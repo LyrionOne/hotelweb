@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 0;
+    background-image: url('../FOTOS/hotel3.jpg');
+    background-size: cover;
+    color: #ffffff; 
+    padding: 300px; 
+    font-size: 25px; 
+    border: 7px solid rgb(0, 0, 0)
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 5px solid #efdc86;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #000000;
+    margin: 5px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    background-color: #1ca736;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #ab601a;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 20px 0;
+}
